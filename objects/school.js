@@ -1,3 +1,5 @@
+'use strict'
+
 /*
 Create a school object. The school object uses the student object from the
 previous exercise. It has methods that use and update information about the

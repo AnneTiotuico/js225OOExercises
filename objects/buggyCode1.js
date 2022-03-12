@@ -1,3 +1,5 @@
+'use strict'
+
 // The code below is expected to output the following when run:
 
 // > const helloVictor = createGreeter('Victor');

@@ -1,3 +1,5 @@
+'use strict'
+
 // A grocery store uses a JavaScript function to calculate discounts on various items.
 // They are testing out various percentage discounts but are getting unexpected results.
 // Go over the code, and identify the reason why they aren't getting the expected

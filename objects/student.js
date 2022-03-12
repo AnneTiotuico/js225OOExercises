@@ -1,3 +1,5 @@
+'use strict'
+
 /*
 Create an object factory for a student object. The student object should have
 the following methods and it should produce the expected results demonstrated

@@ -1,3 +1,5 @@
+'use strict'
+
 // In JavaScript, comparing two objects either with == or === checks for object
 // identity. In other words, the comparison evaluates as true if it's the same
 // object on either side of == or ===. This is a limitation, in a sense, because
