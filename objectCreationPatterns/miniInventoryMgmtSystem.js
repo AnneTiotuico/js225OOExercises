@@ -34,27 +34,15 @@ You may add methods to the item manager as you deem necessary.
 
 let ItemCreator = (function (){
   function validItemName(itemName) {
-    if (itemName && itemName.replace(/ /g, '').length >= 5) {
-      return true;
-    } else {
-      return false;
-    }
+    return itemName && itemName.replace(/ /g, '').length >= 5;
   }
 
   function validCategory(category) {
-    if (category && !category.includes(' ') && category.length >= 5) {
-      return true;
-    } else {
-      return false;
-    }
+    return category && !category.includes(' ') && category.length >= 5;
   }
 
   function validQuantity(quantity) {
-    if (quantity !== undefined && quantity >= 0) {
-      return true;
-    } else {
-      return false;
-    }
+    return quantity !== undefined && quantity >= 0;
   }
 
   function createSKU(itemName, category) {
